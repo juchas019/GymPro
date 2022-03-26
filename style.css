@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62, 5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.6rem;
+    position: relative;
+}
+
+[id] {
+    scroll-margin-top: 74px;
+}
+
+@media (min-width:992) {
+    [id] {
+        scroll-margin-top: 75.19px;
+    }
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.blue-color {
+    color: rgb(25, 12, 207);
+}
+
+/* Nawigacja */
+.navbar-brand {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link,
+.navbar-toggler-icon {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.navbar-toggler {
+    padding: 5px;
+}
+
+.home {
+    position: relative;
+    height: 50rem;
+    z-index: 0;
+    background-image: url('/img/man-gym.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.home .btn {
+    padding: 1em 2em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.aboutUs-box h3 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.aboutUs-icon {
+    font-size: 4rem;
+}
+
+.aboutUs-box p {
+    font-size: 1.2rem;
+}
+
+.accordion-button {
+    font-size: 1.7rem;
+    padding: 1em;
+}
+
+.carousel-item {
+    position: relative;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.carousel-img-one {
+    background-image: url(img/sprzet1.jpg);
+
+}
+
+.carousel-img-two {
+    background-image: url(img/sprzet2.jpg);
+
+}
+
+.carousel-img-three {
+    background-image: url(img/sprzet3.jpg);
+
+}
+
+.team {
+    background-color: rgb(248, 248, 248);
+}
+
+.team .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.team .trener {
+    object-position: top;
+
+}
+
+.team .card-title {
+    font-size: 2rem;
+}
+
+.contact h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact .submit-btn {
+    font-size: 1.6rem;
+}
+
+.contact-info p {
+    font-size: 1.5rem;
+
+}
+
+.contact-info .bi {
+    margin-right: 5px;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 500px;
+}
+
+@media (max-width: 991px) {
+    .change {
+        order: 5;
+    }
+}
+
+@media (max-width: 768px) {
+    .change2 {
+        order: 5;
+    }
+}
